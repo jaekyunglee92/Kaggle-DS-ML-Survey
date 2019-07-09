@@ -17,7 +17,7 @@
 
 ### Dataset
 The data includes 5 files:
-- `Kaggle-Survey-2017-ML-DS.ipynb`: a main Jupyter Notebook file that includes data wrangling, analysis and data visualization.
+- `Kaggle-Survey-DS-ML-2017.ipynb`: a main Jupyter Notebook file that includes data wrangling, analysis and data visualization.
 - `schema.csv`: a CSV file with survey schema. This schema includes the questions that correspond to each column name in both the `multipleChoiceResponses.csv` and `freeformResponses.csv`.
 - `multipleChoiceResponses.csv`: Respondents' answers to multiple choice and ranking questions. These are non-randomized and thus a single row does correspond to all of a single user's answers. -freeformResponses.csv: Respondents' freeform answers to Kaggle's survey questions. These responses are randomized within a column, so that reading across a single row does not give a single user's answers.
 - `conversionRates.csv`: Currency conversion rates (to USD) as accessed from the R package "quantmod" on September 14, 2017
