@@ -17,16 +17,12 @@
 
 ### Dataset
 The data includes 5 files:
-`Kaggle-Survey-2017-ML-DS.ipynb`: a main Jupyter Notebook file that includes data wrangling, analysis and data visualization.
-`schema.csv`: a CSV file with survey schema. This schema includes the questions that correspond to each column name in both the `multipleChoiceResponses.csv` and `freeformResponses.csv`.
-`multipleChoiceResponses.csv`: Respondents' answers to multiple choice and ranking questions. These are non-randomized and thus a single row does correspond to all of a single user's answers. -freeformResponses.csv: Respondents' freeform answers to Kaggle's survey questions. These responses are randomized within a column, so that reading across a single row does not give a single user's answers.
-`conversionRates.csv`: Currency conversion rates (to USD) as accessed from the R package "quantmod" on September 14, 2017
-`RespondentTypeREADME.txt`: This is a schema for decoding the responses in the "Asked" column of the schema.csv file.
+- `Kaggle-Survey-2017-ML-DS.ipynb`: a main Jupyter Notebook file that includes data wrangling, analysis and data visualization.
+- `schema.csv`: a CSV file with survey schema. This schema includes the questions that correspond to each column name in both the `multipleChoiceResponses.csv` and `freeformResponses.csv`.
+- `multipleChoiceResponses.csv`: Respondents' answers to multiple choice and ranking questions. These are non-randomized and thus a single row does correspond to all of a single user's answers. -freeformResponses.csv: Respondents' freeform answers to Kaggle's survey questions. These responses are randomized within a column, so that reading across a single row does not give a single user's answers.
+- `conversionRates.csv`: Currency conversion rates (to USD) as accessed from the R package "quantmod" on September 14, 2017
+- `RespondentTypeREADME.txt`: This is a schema for decoding the responses in the "Asked" column of the schema.csv file.
 
-### Summary of Findings
-
-
-### Key Insights for Presentation
 ### Questions:
 1. Python or R?
 2. What data science tools and methods are going be in the limelight?
@@ -38,3 +34,19 @@ The data includes 5 files:
 8. Where can I get data from?
 9. How do data scientist spend most of their time at work?
 10. What job skill is most important?
+
+
+### Summary of Findings
+- Python is mainly used by most participants who are working in DS-ML industry
+- Following tools will be in the limelight: TensorFlow (23%), Python (15%), R (8%), Clouds: Amazon ML, Google Cloud Computing, MS Azure ML, IMB Watson
+- Deep Learning, Neural Nets, Times Series Analysis, Baysean Methods will be popular
+- People recommended Kaggle the most to learn DS, however, this survey result was hosted in Kaggle, so the result might be biased
+- Macbook users, labto + Cloud service, Azure, and gaming labtop with capable GPU are good enough to study or work in DS-ML industry
+- Full time workers (780+) mostly study for 2-10 hours a day
+- Most of job seekers (850+) study 2-10 hours
+- The proportion of job seekers (400+) studying 11-39 hours is much higher than full-time workers, only 150+ studying 11-39 hours
+- Data Scientists and Machine Learning Scientists in the United States make $115,689 on average, which is more than twice of national mean $53,812
+- The most popular dataset source is Socrata, Kaggle, data.world, and google search followed
+- DS spend 37% of their time for data gathering. They also spend a lot of time to build models, create visualizations, and find insights.
+- Python, statistics knowledge, skills in visualization, SQL, and R are very necessary
+- MOOC, KaggleRanking, EnterpriseTools, Degree are nice to have (to find a job or develop careers)
